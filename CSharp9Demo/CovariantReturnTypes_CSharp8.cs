@@ -17,7 +17,6 @@ namespace CSharp9Demo
 	public class MyCloneableClass : MyCloneableClassBase
 	{
 		public override MyCloneableClassBase Clone() // C# 8.0
-		public override MyCloneableClass Clone() // C# vNext
 		{
 			return new MyCloneableClass()
 			{
@@ -32,7 +31,6 @@ namespace CSharp9Demo
 		{
 			MyCloneableClass c = new MyCloneableClass();
 			MyCloneableClass c2 = (MyCloneableClass)c.Clone(); // C# 8.0
-			MyCloneableClass c3 = c.Clone(); // C# vNext
 		}
 	}
 }

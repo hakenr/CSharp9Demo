@@ -7,11 +7,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="CovariantReturnTypes.cs" />
+	  <Compile Remove="CovariantReturnTypes_CSharp9.cs" />
+	  <Compile Remove="TargetTypedNew.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Include="CovariantReturnTypes.cs" />
+	  <None Include="CovariantReturnTypes_CSharp9.cs" />
+	  <None Include="TargetTypedNew.cs" />
 	</ItemGroup>
 
 </Project>
