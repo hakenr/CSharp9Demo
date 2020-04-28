@@ -14,7 +14,10 @@
 	  <Compile Remove="5_Records\2_WithExpressions.cs" />
 	  <Compile Remove="5_Records\3_PositionalRecords.cs" />
 	  <Compile Remove="5_Records\4_NominalRecords.cs" />
-	  <Compile Remove="TargetTypedNew.cs" />
+	  <Compile Remove="6_PatternMatching.cs" />
+	  <Compile Remove="7_NullableEnhancedCommonType.cs" />
+	  <Compile Remove="8_TargetTypedExpressions.cs" />
+	  <Compile Remove="9_TargetTypedNew.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -25,7 +28,10 @@
 	  <None Include="5_Records\1_CallerReceiverParameters.cs" />
 	  <None Include="5_Records\3_PositionalRecords.cs" />
 	  <None Include="5_Records\4_NominalRecords.cs" />
-	  <None Include="TargetTypedNew.cs" />
+	  <None Include="6_PatternMatching.cs" />
+	  <None Include="7_NullableEnhancedCommonType.cs" />
+	  <None Include="8_TargetTypedExpressions.cs" />
+	  <None Include="9_TargetTypedNew.cs" />
 	</ItemGroup>
 
 </Project>

@@ -45,3 +45,4 @@ namespace CSharp9Demo.Records
 // https://github.com/dotnet/csharplang/issues/3226
 // https://github.com/dotnet/csharplang/blob/master/proposals/recordsv2.md
 // https://github.com/dotnet/csharplang/issues/3137 - Records as collection of features
+// https://github.com/dotnet/csharplang/issues/3213 - Natural value equality
