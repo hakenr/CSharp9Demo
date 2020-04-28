@@ -8,11 +8,13 @@
 
 	<ItemGroup>
 	  <Compile Remove="CovariantReturnTypes_CSharp9.cs" />
+	  <Compile Remove="ParameterNullValidation.cs" />
 	  <Compile Remove="TargetTypedNew.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <None Include="CovariantReturnTypes_CSharp9.cs" />
+	  <None Include="ParameterNullValidation.cs" />
 	  <None Include="TargetTypedNew.cs" />
 	</ItemGroup>
 
