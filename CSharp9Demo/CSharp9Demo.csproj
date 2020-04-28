@@ -7,14 +7,24 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="CovariantReturnTypes_CSharp9.cs" />
-	  <Compile Remove="ParameterNullValidation.cs" />
+	  <Compile Remove="1_ParameterNullValidation.cs" />
+	  <Compile Remove="3_CovariantReturnTypes_CSharp9.cs" />
+	  <Compile Remove="4_PrimaryConstructors.cs" />
+	  <Compile Remove="5_Records\1_CallerReceiverParameters.cs" />
+	  <Compile Remove="5_Records\2_WithExpressions.cs" />
+	  <Compile Remove="5_Records\3_PositionalRecords.cs" />
+	  <Compile Remove="5_Records\4_NominalRecords.cs" />
 	  <Compile Remove="TargetTypedNew.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Include="CovariantReturnTypes_CSharp9.cs" />
-	  <None Include="ParameterNullValidation.cs" />
+	  <None Include="3_CovariantReturnTypes_CSharp9.cs" />
+	  <None Include="1_ParameterNullValidation.cs" />
+	  <None Include="4_PrimaryConstructors.cs" />
+	  <None Include="5_Records\2_WithExpressions.cs" />
+	  <None Include="5_Records\1_CallerReceiverParameters.cs" />
+	  <None Include="5_Records\3_PositionalRecords.cs" />
+	  <None Include="5_Records\4_NominalRecords.cs" />
 	  <None Include="TargetTypedNew.cs" />
 	</ItemGroup>
 
