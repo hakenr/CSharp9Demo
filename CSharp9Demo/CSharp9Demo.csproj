@@ -7,31 +7,35 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="1_ParameterNullValidation.cs" />
-	  <Compile Remove="3_CovariantReturnTypes_CSharp9.cs" />
-	  <Compile Remove="4_PrimaryConstructors.cs" />
-	  <Compile Remove="5_Records\1_CallerReceiverParameters.cs" />
-	  <Compile Remove="5_Records\2_WithExpressions.cs" />
-	  <Compile Remove="5_Records\3_PositionalRecords.cs" />
-	  <Compile Remove="5_Records\4_NominalRecords.cs" />
-	  <Compile Remove="6_PatternMatching.cs" />
-	  <Compile Remove="7_NullableEnhancedCommonType.cs" />
-	  <Compile Remove="8_TargetTypedExpressions.cs" />
-	  <Compile Remove="9_TargetTypedNew.cs" />
+	  <Compile Remove="01_ParameterNullValidation.cs" />
+	  <Compile Remove="03_CovariantReturnTypes_CSharp9.cs" />
+	  <Compile Remove="04_PrimaryConstructors.cs" />
+	  <Compile Remove="06_PatternMatching.cs" />
+	  <Compile Remove="07_NullableEnhancedCommonType.cs" />
+	  <Compile Remove="08_TargetTypedExpressions.cs" />
+	  <Compile Remove="09_TargetTypedNew.cs" />
+	  <Compile Remove="10_TopLevelStatementsAndMembers.cs" />
+	  <Compile Remove="05_Records\1_CallerReceiverParameters.cs" />
+	  <Compile Remove="05_Records\2_WithExpressions.cs" />
+	  <Compile Remove="05_Records\3_PositionalRecords.cs" />
+	  <Compile Remove="05_Records\4_NominalRecords.cs" />
+	  <Compile Remove="11_StaticLambdas.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Include="3_CovariantReturnTypes_CSharp9.cs" />
-	  <None Include="1_ParameterNullValidation.cs" />
-	  <None Include="4_PrimaryConstructors.cs" />
-	  <None Include="5_Records\2_WithExpressions.cs" />
-	  <None Include="5_Records\1_CallerReceiverParameters.cs" />
-	  <None Include="5_Records\3_PositionalRecords.cs" />
-	  <None Include="5_Records\4_NominalRecords.cs" />
-	  <None Include="6_PatternMatching.cs" />
-	  <None Include="7_NullableEnhancedCommonType.cs" />
-	  <None Include="8_TargetTypedExpressions.cs" />
-	  <None Include="9_TargetTypedNew.cs" />
+	  <None Include="10_TopLevelStatementsAndMembers.cs" />
+	  <None Include="03_CovariantReturnTypes_CSharp9.cs" />
+	  <None Include="01_ParameterNullValidation.cs" />
+	  <None Include="04_PrimaryConstructors.cs" />
+	  <None Include="05_Records\2_WithExpressions.cs" />
+	  <None Include="05_Records\1_CallerReceiverParameters.cs" />
+	  <None Include="05_Records\3_PositionalRecords.cs" />
+	  <None Include="05_Records\4_NominalRecords.cs" />
+	  <None Include="06_PatternMatching.cs" />
+	  <None Include="07_NullableEnhancedCommonType.cs" />
+	  <None Include="08_TargetTypedExpressions.cs" />
+	  <None Include="09_TargetTypedNew.cs" />
+	  <None Include="11_StaticLambdas.cs" />
 	</ItemGroup>
 
 </Project>
