@@ -10,15 +10,15 @@
 	  <Compile Remove="01_ParameterNullValidation.cs" />
 	  <Compile Remove="03_CovariantReturnTypes_CSharp9.cs" />
 	  <Compile Remove="04_PrimaryConstructors.cs" />
+	  <Compile Remove="05_Records\05_01_CallerReceiverParameters.cs" />
+	  <Compile Remove="05_Records\05_02_WithExpressions.cs" />
+	  <Compile Remove="05_Records\05_03_PositionalRecords.cs" />
+	  <Compile Remove="05_Records\05_04_NominalRecords.cs" />
 	  <Compile Remove="06_PatternMatching.cs" />
 	  <Compile Remove="07_NullableEnhancedCommonType.cs" />
 	  <Compile Remove="08_TargetTypedExpressions.cs" />
 	  <Compile Remove="09_TargetTypedNew.cs" />
 	  <Compile Remove="10_TopLevelStatementsAndMembers.cs" />
-	  <Compile Remove="05_Records\1_CallerReceiverParameters.cs" />
-	  <Compile Remove="05_Records\2_WithExpressions.cs" />
-	  <Compile Remove="05_Records\3_PositionalRecords.cs" />
-	  <Compile Remove="05_Records\4_NominalRecords.cs" />
 	  <Compile Remove="11_StaticLambdas.cs" />
 	  <Compile Remove="13_NativeSizedNumbers.cs" />
 	</ItemGroup>
@@ -28,10 +28,10 @@
 	  <None Include="03_CovariantReturnTypes_CSharp9.cs" />
 	  <None Include="01_ParameterNullValidation.cs" />
 	  <None Include="04_PrimaryConstructors.cs" />
-	  <None Include="05_Records\2_WithExpressions.cs" />
-	  <None Include="05_Records\1_CallerReceiverParameters.cs" />
-	  <None Include="05_Records\3_PositionalRecords.cs" />
-	  <None Include="05_Records\4_NominalRecords.cs" />
+	  <None Include="05_Records\05_02_WithExpressions.cs" />
+	  <None Include="05_Records\05_01_CallerReceiverParameters.cs" />
+	  <None Include="05_Records\05_03_PositionalRecords.cs" />
+	  <None Include="05_Records\05_04_NominalRecords.cs" />
 	  <None Include="06_PatternMatching.cs" />
 	  <None Include="07_NullableEnhancedCommonType.cs" />
 	  <None Include="08_TargetTypedExpressions.cs" />

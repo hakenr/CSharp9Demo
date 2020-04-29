@@ -16,7 +16,7 @@ namespace CSharp9Demo
 			// C# 8.0 - Errror CS0019  Operator '??' cannot be applied to operands of type 'uint?' and 'int'
 			long l = u ?? -1;
 
-			// C# 8.0 - Rrror CS0173  Type of conditional expression cannot be determined because there is no implicit conversion between 'System.Collections.Generic.List<int>' and 'int[]'
+			// C# 8.0 - Error CS0173  Type of conditional expression cannot be determined because there is no implicit conversion between 'System.Collections.Generic.List<int>' and 'int[]'
 			IEnumerable<int> y = condition ? list : Array.Empty<int>();
 
 

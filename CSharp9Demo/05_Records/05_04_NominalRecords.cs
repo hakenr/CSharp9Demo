@@ -12,9 +12,9 @@ namespace CSharp9Demo.Records
 	// Equivalent implementation
 	public sealed class Student : IEquatable<Student>
 	{
-		public string Name { get; init; }						// initonly properties (no setter)
+		public string Name { get; init; }                       // initonly properties (no setter)
 		public decimal Gpa { get; init; }
-		public Student(string name, decimal gpa)				// ? generated constructor
+		public Student(string name, decimal gpa)                // ? generated constructor
 		{
 			this.Name = name;
 			this.Gpa = gpa;

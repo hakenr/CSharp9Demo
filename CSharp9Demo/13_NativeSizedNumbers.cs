@@ -10,7 +10,6 @@ namespace CSharp9Demo
     {
 		nint i;
 		nuint u;
-        
     }
 }
 // https://github.com/dotnet/csharplang/issues/435

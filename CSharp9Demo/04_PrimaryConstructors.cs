@@ -11,7 +11,7 @@
 	// Equivalent implementation
 	public class MyClassImplementation : MyClassBase
 	{
-		public C(int i, string s) : base(s)
+		public MyClassImplementation(int i, string s) : base(s)
 		{
 			__s = s;							// store parameter s for captured use
 			a = new int[i];						// initialize a
