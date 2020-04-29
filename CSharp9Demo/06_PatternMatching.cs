@@ -37,7 +37,7 @@ namespace CSharp9Demo
 			};
 		}
 
-		// Pettern Combinators - and, or, not
+		// Pattern Combinators - and, or, not
 		public bool IsLetter(char? c)
 		{
 			if (c is not null)
