@@ -20,6 +20,7 @@
 	  <Compile Remove="05_Records\3_PositionalRecords.cs" />
 	  <Compile Remove="05_Records\4_NominalRecords.cs" />
 	  <Compile Remove="11_StaticLambdas.cs" />
+	  <Compile Remove="13_NativeSizedNumbers.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -36,6 +37,7 @@
 	  <None Include="08_TargetTypedExpressions.cs" />
 	  <None Include="09_TargetTypedNew.cs" />
 	  <None Include="11_StaticLambdas.cs" />
+	  <None Include="13_NativeSizedNumbers.cs" />
 	</ItemGroup>
 
 </Project>
